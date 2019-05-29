@@ -9,5 +9,6 @@ public class Test {
 		User u= new User(4,"aaa","111");
 		UserDaoImpl ud=new UserDaoImpl();
 		System.out.println(ud.queryOne(u));
+                System.out.println("小猪");
 	}
 }
